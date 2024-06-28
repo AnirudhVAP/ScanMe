@@ -1,0 +1,52 @@
+.menu-item {
+    display: flex;
+    width: 300px;
+    margin: 8px 0;
+    background-color: rgba(51, 47, 47, 0.836);
+    border: 1px solid #eee;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 8px 8px 8px rgba(66, 62, 62, 0.288);
+    cursor: pointer;
+
+  }
+  .menu-item:hover{
+    background-color: rgb(190, 190, 51);
+    color: black;
+  }
+  .menu-item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+  }
+  
+  .menu-item-info {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 10px;
+    color: white;
+  }
+  .menu-item-info .menu-item-name{
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .menu-item-otherinfo{
+    display: flex;
+    flex-direction: row;
+   
+  }
+  .menu-item-otherinfo p{
+    color: white;
+  }
+  .menu-item-otherinfo .menu-item-otherinfo-price{
+    color: yellow;
+    font-weight: bold;
+    font-size: medium;
+  }
+  
+  

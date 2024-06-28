@@ -1,0 +1,33 @@
+.added-items {
+  padding: 20px;
+}
+.added-items ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.added-items h2 {
+  margin-bottom: 20px;
+}
+.added-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 1rem;
+  background-color: rgba(51, 47, 47, 0.836);
+}
+.added-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+.added-item-info {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-weight: bold;
+  margin-left: 0.8rem;
+}

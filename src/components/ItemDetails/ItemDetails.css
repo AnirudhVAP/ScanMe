@@ -1,0 +1,153 @@
+/* Center the content */
+.menu-details {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center vertically */
+  margin-top: 20px;
+  width: 100vw; /* Full viewport width */
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.menu-details-content {
+  text-align: center;
+  max-width: 80%;
+  width: 70%;
+  background-color: #373A40;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  margin: auto; /* Center horizontally */
+}
+
+.menu-details-video {
+  width: 85%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.menu-details-image {
+  width: 65%;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid #373A40;
+}
+
+.menu-details-name {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  color: white;
+  margin-bottom: 0;
+  font-weight: 900;
+}
+
+.menu-details-content-info {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin-top: 0;
+  width: 100%;
+}
+
+.menu-details-content-info .menu-details-calories,
+.menu-details-price {
+  color: yellow;
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.menu-details-bsp {
+  color: white;
+  font-size: 1rem;
+  margin-top: 2px;
+}
+
+.menu-details-price {
+  font-weight: bold;
+}
+
+.menu-details-desc {
+  color: wheat;
+  font-size: 1.2rem;
+  text-align: center; /* Center text within the container */
+  width: 90%;
+  margin: 0.5rem auto; /* Center the element itself */
+  line-height: 1;
+  word-wrap: break-word; /* Ensure text wraps */
+}
+
+.menu-details-buttons {
+  margin: 1rem;
+  display: inline-flex;
+  width: 100%;
+  justify-content: center; /* Center buttons */
+}
+
+.menu-details-button {
+  width: auto;
+  padding: 0.8rem 1rem;
+  margin: 0 1rem; /* Add margins to left and right */
+  color: black;
+  background-color: yellow;
+  border-radius: 18px;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.item-combinations {
+  margin-top: 20px;
+}
+
+.combinations-header {
+  text-align: center;
+}
+
+.combinations-list-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-top: 10px;
+  padding-left: 20px; /* Add padding to the left */
+}
+
+.combinations-list {
+  display: flex;
+  gap: 20px;
+  white-space: nowrap;
+  justify-content: flex-start; /* Align items to the start */
+}
+
+.combination-item {
+  text-align: center;
+  display: inline-block;
+}
+
+.combination-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.combination-item-name {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.menu-details.loaded {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.loading-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 2rem;
+  color: #373A40;
+}
